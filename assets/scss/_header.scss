@@ -1,0 +1,12 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  border-bottom: var(--input-border-color);
+  height: var(--header-height);
+  background: var(--header-color-background);
+  img {
+    height: 24px;
+  }
+}

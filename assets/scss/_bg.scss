@@ -1,0 +1,23 @@
+.anibg-1 {
+  background: linear-gradient(312deg, #0fdba6, #98ccff, #ffdf31);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 10%}
+  50%{background-position:100% 91%}
+  100%{background-position:0% 10%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 10%}
+  50%{background-position:100% 91%}
+  100%{background-position:0% 10%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 10%}
+  50%{background-position:100% 91%}
+  100%{background-position:0% 10%}
+}

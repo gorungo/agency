@@ -1,0 +1,267 @@
+@import '_mixins';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+
+$grid-width-lg: 900px;
+$grid-width-xl: 1000px;
+$grid-breakpoints-hd: 1800px;
+$grid-width-hd: 1100px;
+$grid-width-hd-2k: 1200px;
+$grid-breakpoints-2k: 2200px;
+$grid-width-2k: 2180px;
+$breakpoints: (
+  '2k': 2200px,
+  hd: 1800px,
+  xl: 1200px,
+  lg: 992px,
+  md: 768px,
+  sm: 576px
+) !default;
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  color: var(--color-text-color);
+  background: var(--color-bg-main);
+  font-family: var(--font-family);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0 0 0.5rem;
+  padding: 0;
+  line-height: 1.75rem;
+  font-weight: 800;
+  font-family: var(--font-family-header);
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: var(--color-text-color);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--color-link);
+    transition: color ease-in-out;
+  }
+}
+
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: initial;
+  @media screen and (min-width: $grid-breakpoints-hd) {
+    max-width: $grid-width-hd;
+  }
+  @media screen and (min-width: $grid-breakpoints-2k) {
+    max-width: $grid-width-2k;
+  }
+
+  &.container--max-hd {
+    @media screen and (min-width: $grid-breakpoints-hd) {
+      max-width: $grid-width-hd;
+    }
+    @media screen and (min-width: $grid-breakpoints-2k) {
+      max-width: $grid-width-hd-2k;
+    }
+  }
+}
+
+.container-100 {
+  width: 100%;
+}
+
+.container {
+  padding: 0 1rem;
+  @include min-width(md) {
+    padding: 0 2rem;
+  }
+}
+
+.container-100 {
+  padding: 0 1rem;
+  @include min-width(md) {
+    padding: 0 2rem;
+  }
+  @include min-width(hd) {
+    padding: 0 4rem;
+  }
+}
+
+.container,
+.container-100 {
+  .row {
+    margin-right: calc(-1 * var(--grid-row-gap));
+    margin-left: calc(-1 * var(--grid-row-gap));
+  }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+
+  .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+    position: relative;
+    width: 100%;
+    padding: 0 var(--grid-row-gap);
+  }
+
+  .col-1 {
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+  }
+
+  .col-2 {
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+  }
+
+  .col-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .col-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+
+  .col-5 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+
+  .col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .col-7 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .col-8 {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+
+  .col-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+}
+
+.center-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+// border radius
+
+.border-radius-1 {
+  border-radius: 1rem;
+}
+
+.bottom-left-radius-5 {
+  border-bottom-left-radius: 5rem !important;
+}
+
+.top-left-radius-10 {
+  border-top-left-radius: 10rem !important;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.mt-4 {
+  margin-top: 4rem;
+}
+
+.px-1 {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.min-h-60 {
+  min-height: 60vh;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.bg-light-panel {
+  background: var(--header-nav-bg-color) !important;
+}
+
+.bg-red-light {
+  background: var(--color-bg-light-red) !important;
+}
+
+.bg-blue-light {
+  background: var(--color-bg-light-blue) !important;
+}
+
+.bg-green-light {
+  background: var(--color-bg-light-green) !important;
+}
+
+.bg-gr-1{
+  background: linear-gradient(312deg, #dffff7, #e8f4ff, #fff7ca) !important;
+}
+
+.bg-gr-2{
+  background: linear-gradient(222deg, #f1dfff, #e8f4ff, #caffdd) !important;
+}
+
+.same-height{
+  align-items: stretch;
+}
+.height-100{
+  height: 100%;
+}

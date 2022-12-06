@@ -1,0 +1,42 @@
+.header-nav {
+  display: flex;
+  background: var(--header-nav-bg-color);
+  border-radius: 2rem;
+  padding: 0 2rem;
+  max-height: 50px;
+  ul {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    gap: 1rem;
+    a.nuxt-link-active{
+      font-weight: bold;
+    }
+  }
+}
+
+.services-nav-cards {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  .row {
+    min-width: 800px;
+  }
+  .card {
+    border: none;
+  }
+}
+
+.services-nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+  .row {
+    min-width: 800px;
+  }
+  a.nuxt-link-active{
+    font-weight: bold;
+  }
+}

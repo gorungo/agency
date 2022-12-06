@@ -1,0 +1,48 @@
+
+:root {
+  // text
+  --font-family: 'Montserrat';
+  --font-family-header: 'Montserrat';
+
+  // colors
+  --color-primary: #F7A800;
+  --color-second: #8F90A6;
+  --color-primary-hover: #ED8001;
+  --color-focus-outline: rgba(255, 199, 81, 0.58);
+  --color-bg-primary-light-color: #fffaf1;
+  --color-bg-primary-border-color: #ffe8b8;
+  --color-bg-light-gray: #f8f8f8;
+  --color-bg-light-yellow: #fff8e1;
+  --color-bg-light-red: #ffe1ea;
+  --color-bg-light-blue: #e1f7ff;
+  --color-bg-light-green: green;
+  --color-bg-main: #eef4ff;
+  --color-link: #1c47dc;
+  --header-nav-bg-color: rgba(0, 90, 255, 0.1);
+
+  // text colors
+  --color-text-color: #1C1C28;
+  --color-text-color-secondary: #8F90A6;
+
+  // input
+  --input-border-color: #E4E4EB;
+  --input-border-color-light: #eeeef3;
+  --input-border-color-danger: #ff578f;
+  --input-border-radius: 2px;
+  --input-border-radius-large: 5px;
+
+  // header
+  --header-height: 80px;
+  --header-search-color: #E4E4EB;
+  --header-color-background: transparent;
+
+  // card
+  --card-border-radius: 2px;
+  --card-border-color: #E4E4EB;
+  --card-border-radius-xl: 20px;
+  --card-border-radius-large: 10px;
+  --card-border-radius-middle: 5px;
+  --card-border-radius-small: 2px;
+
+  --grid-row-gap: 1rem;
+}
