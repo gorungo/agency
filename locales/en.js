@@ -1,7 +1,8 @@
 export default {
   seo: {
     title: 'Gorungo - digital agency',
-    description: 'Digital agency'
+    description: 'Digital agency',
+    slogan: 'Digital <br> solutions <br>to bring your ideas to life<br>'
   },
   nav: {
     services: {
@@ -20,14 +21,86 @@ export default {
     title: 'Services',
     subtitle: 'Services subtitle',
     video: {
-      title: 'Video',
-      subtitle: 'Video subtitle',
-      description: 'Video subtitle'
+      title: 'Video production',
+      subtitle: 'Video editing and animation based on the provided video materials and graphics',
+      description: 'Это описание',
+      animation: {
+        title: 'Animation',
+        subtitle: 'Graphics animation and video editing',
+        description: 'Graphics animation and video editing',
+        maxDuration: '15 seconds',
+        price: 'from 100 USD.'
+      },
+      logoAnimation: {
+        title: 'Logotype animation',
+        subtitle: 'Animation of static logo elements',
+        description: 'Animation of static logo elements',
+        maxDuration: '10 seconds',
+        price: 'from 50 UDS'
+      },
+      film: {
+        title: 'Video editing',
+        subtitle: 'Video editing from the provided video materials',
+        description: 'Video editing from the provided video materials',
+        maxDuration: 'from 2 minutes',
+        price: 'from 100 USD per minute'
+      }
     },
     internet: {
-      title: 'Sites',
-      subtitle: 'Sites subtitle',
-      description: 'Sites description'
-    },
+      title: 'Website development',
+      subtitle: 'We specialize in creating landing pages, small online representative companies',
+      description: 'Это описание',
+      landing: {
+        title: 'Одностраничный сайт или Landing page'
+      }
+    }
+  },
+  portfolio: {
+    title: 'Portfolio',
+    subtitle: 'Works done by our designers',
+    sections: {
+      scoopy: {
+        title: 'Motorcycle rental website',
+        description: 'Motorcycle rental website',
+      },
+      inhale: {
+        title: 'Application design for breathing practices',
+        description: 'Application design for breathing practices',
+      },
+      practice: {
+        title: 'Corporate identity for a yoga studio',
+        description: 'Corporate identity for a yoga studio',
+      },
+      booka: {
+        title: 'Booking website design',
+        description: 'Дизайн сайта по бронированию жилья',
+      },
+      gradient: {
+        title: 'Дизайн сайта по продаже курсов',
+        description: 'Дизайн сайта по продаже курсов',
+      },
+      models: {
+        title: 'Дизайн сайта модельного агентства',
+        description: 'Дизайн сайта модельного агентства',
+      },
+      cryptoscan: {
+        title: 'Дизайн приложения для работы с криптовалютой',
+        description: 'Дизайн приложения для работы с криптовалютой',
+      },
+      health: {
+        title: 'Дизайн приложения для учета здоровья',
+        description: 'Дизайн приложения для учета здоровья',
+      }
+    }
+  },
+  pages: {
+    about: {
+      title: 'About company',
+      intro: {
+        p1: 'Young company with great potential',
+        p2: 'We employ both young advanced specialists, to find modern solutions in the field of design, and experienced employees in the field of programming, to build stable IT solutions',
+        p3: 'We are constantly learning, experimenting, using modern technologies'
+      }
+    }
   }
 }
