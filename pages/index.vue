@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="content">
     <div class="banner-main anibg-1">
       <div class="banner-main__title-block">
         <h1 class="banner-main__title" v-html="$t('seo.slogan')"></h1>

@@ -2,7 +2,7 @@
 	<div id="app">
 		<AppHeader />
 		<main class="px-1">
-      <div class="content border-radius-1 w-100">
+      <div class="content border-radius-1 w-100 bg-white">
         <div class="container min-h-60">
           <nuxt />
         </div>

@@ -2,7 +2,7 @@
 	<div id="app">
 		<AppHeader />
 		<main class="px-1">
-      <div class="content border-radius-1 w-100 top-left-radius-10">
+      <div class="content border-radius-1 w-100 top-left-radius-10 bg-white">
         <div class="container min-h-60">
           <div class="mb-2">
             <services-nav />

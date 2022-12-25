@@ -1,6 +1,6 @@
 <template>
   <div>
-      <div class="content center-block border-radius-1 top-left-radius-10">
+      <div class="content center-block border-radius-1 top-left-radius-10 bg-white">
         <h1 class="">{{ $t('services.title')}}</h1>
         <div class="mt-2 w-100">
           <services-nav-cards />

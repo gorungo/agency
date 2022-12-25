@@ -6,6 +6,10 @@
   animation: AnimationName 30s ease infinite;
 }
 
+.bg-white{
+  background: white;
+}
+
 @-webkit-keyframes AnimationName {
   0%{background-position:0% 10%}
   50%{background-position:100% 91%}
