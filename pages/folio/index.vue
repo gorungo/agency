@@ -3,6 +3,71 @@
     <h1 class="">{{ $t('portfolio.title') }}</h1>
     <p class="">{{ $t('portfolio.subtitle') }}</p>
     <section class="mt-4 folio-section bg-blue-light">
+      <h3>{{$t('portfolio.sections.fay.title')}}</h3>
+      <p>{{$t('portfolio.sections.fay.description')}}</p>
+      <div class="row folio">
+        <div class="col-md-4 col-4 folio-image-cover">
+          <img src="/images/folio/fay-1.jpg" data-fancybox="gallery-fay" class="folio-image" alt="folio"/>
+        </div>
+        <div class="col-md-4 col-4 folio-image-cover">
+          <img src="/images/folio/fay-2.jpg" data-fancybox="gallery-fay" class="folio-image" alt="folio"/>
+        </div>
+        <div class="col-md-4 col-4 folio-image-cover">
+          <img src="/images/folio/fay-3.jpg" data-fancybox="gallery-fay" class="folio-image" alt="folio"/>
+        </div>
+      </div>
+    </section>
+    <section class="mt-4 folio-section">
+      <h3>{{$t('portfolio.sections.double.title')}}</h3>
+      <p>{{$t('portfolio.sections.double.description')}}</p>
+      <div class="row folio">
+        <div class="col-md-6 col-6 folio-image-cover">
+          <img src="/images/folio/double-1.jpg" data-fancybox="gallery-double" class="folio-image" alt="folio"/>
+        </div>
+        <div class="col-md-6 col-6 folio-image-cover">
+          <img src="/images/folio/double-2.jpg" data-fancybox="gallery-double" class="folio-image" alt="folio"/>
+        </div>
+      </div>
+    </section>
+    <section class="mt-4 folio-section bg-blue-light">
+      <h3>{{$t('portfolio.sections.bali.title')}}</h3>
+      <p>{{$t('portfolio.sections.bali.description')}}</p>
+      <div class="row folio">
+        <div class="col-md-4 col-4 folio-image-cover">
+          <img src="/images/folio/bali-1.jpg" data-fancybox="gallery-bali" class="folio-image" alt="folio"/>
+        </div>
+        <div class="col-md-4 col-4 folio-image-cover">
+          <img src="/images/folio/bali-2.jpg" data-fancybox="gallery-bali" class="folio-image" alt="folio"/>
+        </div>
+        <div class="col-md-4 col-4 folio-image-cover">
+          <img src="/images/folio/bali-3.jpg" data-fancybox="gallery-bali" class="folio-image" alt="folio"/>
+        </div>
+      </div>
+    </section>
+    <section class="mt-4">
+      <h3>{{$t('portfolio.sections.practice.title')}}</h3>
+      <div class="row folio">
+        <div class="col-md-4 col-4 folio-image-cover">
+          <img src="/images/folio/practice-1.jpg" data-fancybox="gallery-practice" class="folio-image" alt="folio"/>
+        </div>
+        <div class="col-md-4 col-4 folio-image-cover">
+          <img src="/images/folio/practice-2.jpg" data-fancybox="gallery-practice" class="folio-image" alt="folio"/>
+        </div>
+        <div class="col-md-4 col-4 folio-image-cover">
+          <img src="/images/folio/practice-3.jpg" data-fancybox="gallery-practice" class="folio-image" alt="folio"/>
+        </div>
+        <div class="col-md-4 col-4 folio-image-cover">
+          <img src="/images/folio/practice-4.jpg" data-fancybox="gallery-practice" class="folio-image" alt="folio"/>
+        </div>
+        <div class="col-md-4 col-4 folio-image-cover">
+          <img src="/images/folio/practice-5.jpg" data-fancybox="gallery-practice" class="folio-image" alt="folio"/>
+        </div>
+        <div class="col-md-4 col-4 folio-image-cover">
+          <img src="/images/folio/practice-6.jpg" data-fancybox="gallery-practice" class="folio-image" alt="folio"/>
+        </div>
+      </div>
+    </section>
+    <section class="mt-4 folio-section bg-blue-light">
       <h3>{{$t('portfolio.sections.scoopy.title')}}</h3>
       <p>{{$t('portfolio.sections.scoopy.description')}}</p>
       <div class="row folio">

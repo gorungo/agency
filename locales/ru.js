@@ -5,7 +5,8 @@ export default {
     description: 'Диджитал агентство'
   },
   text: {
-    maxDuration: 'Длительность до: '
+    maxDuration: 'Длительность до: ',
+    more: 'Еще'
   },
   nav: {
     services: {
@@ -16,7 +17,7 @@ export default {
       }
     },
     portfolio: {
-      title: 'Портфолио'
+      title: 'Портфолио',
     },
     info: {
       about: {
@@ -65,9 +66,22 @@ export default {
   portfolio: {
     title: 'Примеры работ',
     subtitle: 'Работы, выполненные нашими дизайнерами',
+    latestTitle: 'Новые работы',
     sections: {
+      bali: {
+        title: 'Дизайн сайта русского комьюнити на Бали',
+        description: 'Работа выполнена под верстку и программирование',
+      },
+      fay: {
+        title: 'Дизайн сайта йога школы',
+        description: 'Работа выполнена под верстку и программирование',
+      },
+      double: {
+        title: 'Дизайн сайта NFT',
+        description: 'Работа выполнена под верстку и программирование',
+      },
       scoopy: {
-        title: 'Сайт аренды мотобайков',
+        title: 'Дизайн сайта аренды мотобайков',
         description: 'Работа выполнена под верстку и программирование',
       },
       inhale: {
