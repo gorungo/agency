@@ -21,11 +21,13 @@ export default {
         ...i18nHead.meta
       ],
       link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
         {
           hid: 'apple-touch-icon',
           rel: 'apple-touch-icon',
           sizes: '180x180',
-          href: '/apple-touch-icon.png'
+          href: '/apple-touch-icon.png',
+
         },
         ...i18nHead.link
       ],
