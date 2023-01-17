@@ -59,12 +59,24 @@ export default {
     title: 'Portfolio',
     subtitle: 'Works done by our designers',
     sections: {
+      bali: {
+        title: 'Bali community site design',
+        description: 'Bali community site design',
+      },
+      fay: {
+        title: 'Yoga school site design',
+        description: 'Yoga school site design',
+      },
+      double: {
+        title: 'NFT site design',
+        description: 'NFT site design',
+      },
       scoopy: {
-        title: 'Motorcycle rental website',
+        title: 'Motorcycle rental website design',
         description: 'Motorcycle rental website',
       },
       inhale: {
-        title: 'Application design for breathing practices',
+        title: 'Breathing practices application design',
         description: 'Application design for breathing practices',
       },
       practice: {
@@ -72,24 +84,24 @@ export default {
         description: 'Corporate identity for a yoga studio',
       },
       booka: {
-        title: 'Booking website design',
-        description: 'Дизайн сайта по бронированию жилья',
+        title: 'Booking site design',
+        description: 'Booking site design',
       },
       gradient: {
-        title: 'Дизайн сайта по продаже курсов',
-        description: 'Дизайн сайта по продаже курсов',
+        title: 'Courses site design',
+        description: 'Courses site design',
       },
       models: {
-        title: 'Дизайн сайта модельного агентства',
-        description: 'Дизайн сайта модельного агентства',
+        title: 'Model agency site design',
+        description: 'Model agency site design',
       },
       cryptoscan: {
-        title: 'Дизайн приложения для работы с криптовалютой',
-        description: 'Дизайн приложения для работы с криптовалютой',
+        title: 'Crypto app design',
+        description: 'Crypto app design',
       },
       health: {
-        title: 'Дизайн приложения для учета здоровья',
-        description: 'Дизайн приложения для учета здоровья',
+        title: 'Health app design',
+        description: 'Health app design',
       }
     }
   },
