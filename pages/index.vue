@@ -7,7 +7,7 @@
       <img src="/images/bg/banner-home.svg" width="80%" alt="banner" class="">
     </div>
     <section class="mt-4">
-      <h3 class="title_vs_link">{{$t('portfolio.latestTitle')}}<nuxt-link to="/folio">{{$t('text.more')}}</nuxt-link></h3>
+      <h3 class="title_vs_link">{{$t('portfolio.latestTitle')}}<nuxt-link :to="localePath('/folio')">{{$t('text.more')}}</nuxt-link></h3>
       <div class="row folio">
         <div class="col-md-3 col-3 folio-image-cover">
           <img src="/images/folio/fay-1.jpg" data-fancybox="gallery-new" class="folio-image" alt="folio"/>
