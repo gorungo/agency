@@ -4,6 +4,10 @@ export default {
     description: 'Digital agency',
     slogan: 'Digital <br> solutions <br>to bring your ideas to life<br>'
   },
+  text: {
+    maxDuration: 'max duration: ',
+    more: 'more'
+  },
   nav: {
     services: {
       title: 'Services'
@@ -58,6 +62,7 @@ export default {
   portfolio: {
     title: 'Portfolio',
     subtitle: 'Works done by our designers',
+    latestTitle: 'Last works',
     sections: {
       bali: {
         title: 'Bali community site design',
